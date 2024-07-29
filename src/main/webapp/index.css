@@ -1,0 +1,71 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    scroll-behavior: smooth;
+}
+/*navigation bar*/
+
+nav{
+    height: 100px;
+    background: powderblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav>ol{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* about me section-*/
+
+.aboutme{
+    height: 80vh;
+    background-color: lightgrey;
+}
+
+
+.container{
+    height: 68vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo,.content{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.container>.logo{
+    background: no-repeat scroll url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTm4skoMIOg7vuCD4swA7pd1OdNMFEhr3tuwIKts49nWjK7JJGGKPHLLUCrV3oZ6_v&usqp=CAU");
+    background-size: cover;
+}
+/*--project section--*/
+
+.projects{
+    height: 100vh;
+    background-color: lightgray;
+}
+
+
+.projects div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
